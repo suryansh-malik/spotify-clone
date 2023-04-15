@@ -1,0 +1,158 @@
+.topbar-before-login {
+  width: 100%;
+  height: 100%;
+  padding: 11px 30px 11px 30px;
+  z-index: 999;
+}
+.logout-button{
+  background-color: transparent;
+  color:white;
+  padding:7px 10px 7px 10px ;
+  font-weight:600;
+  font-size: 15px;
+  border:0.005rem solid rgba(255, 255, 255, 0.363);
+  cursor: pointer;
+  border-radius: 50px;
+}
+.top-bar-before-login-content {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.topbar-before-left {
+  width: auto;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+.topbar-before-right {
+  width: auto;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  gap:10px;
+}
+.navigation-button {
+  background-color: rgb(0, 0, 0);
+  margin-right: 15px;
+  width: 35px;
+  padding: 3px;
+  height: auto;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.topbar-login {
+  background-color: transparent;
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: 700;
+  border: 0px solid;
+  color: grey;
+  margin-right: 25px;
+}
+.topbar-signup {
+  background-color: white;
+  border: 0px solid;
+  border-radius: 50px;
+  padding: 15px 30px 15px 30px;
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: 700;
+}
+.profile-button {
+  background-color: black;
+  border-radius: 23px;
+  cursor: pointer;
+}
+.profile-button-inner-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  align-content: center;
+  padding: 2px 10px 2px 2px;
+  gap: 4px;
+}
+.profile-logo {
+  background-color: #535353;
+  padding: 5px;
+  border: 0px solid;
+  border-radius: 50%;
+}
+.profile-logo-svg-div {
+  width: auto;
+  height: auto;
+  margin-bottom: 2px;
+}
+.profile-logo-svg {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  width: 15px;
+  height: 15px;
+  fill: white;
+}
+.profile-name-div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  width: fit-content;
+  height: fit-content;
+  font-weight: 700;
+}
+.profile-name{
+  padding-bottom:5px;
+}
+@media(max-width:550px){
+  .profile-name{
+    font-size:12px;
+    padding-bottom:1px;
+  }
+  .profile-logo-svg {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  width: 10px;
+  height: 10px;
+  fill: white;
+}
+  .topbar-before-login {
+  width: 100%;
+  height: 100%;
+  padding: 7px 20px 7px 20px;
+  z-index: 999;
+}
+  .topbar-login {
+  background-color: transparent;
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: 700;
+  border: 0px solid;
+  color: grey;
+  margin-right: 25px;
+}
+.topbar-signup {
+  background-color: white;
+  border: 0px solid;
+  border-radius: 50px;
+  padding: 7px 15px 7px 15px;
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: 700;
+}
+.logout-button{
+  background-color: transparent;
+  color:white;
+  padding:7px 10px 8px 10px ;
+  font-weight:600;
+  font-size: 12px;
+  border:0.005rem solid rgba(255, 255, 255, 0.363);
+  cursor: pointer;
+  border-radius: 50px;
+}
+}

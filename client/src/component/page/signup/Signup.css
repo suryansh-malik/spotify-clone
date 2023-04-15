@@ -1,0 +1,212 @@
+.invalid-input{
+  
+border: 0.1rem solid rgb(255, 0, 0);
+}
+.valid-input{
+  border: 0.1rem solid grey;
+}
+.singup-top-section {
+  width: 100%;
+  height: 120px;
+  border-bottom: 0.5px solid rgba(128, 128, 128, 0.292);
+}
+.singup-top-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom:40px;
+}
+.singup-top-logo-div {
+  /* margin:12px 0 12px 0 ; */
+  width: 100%;
+  height: 68px;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  overflow: hidden;
+}
+.singup-middle-section {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.singup-middle-inner-content {
+padding:20px;
+  width: 450px;
+  height: 100%;
+margin-bottom:20px;
+}
+.singup-email-div {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  margin-bottom: 25px;
+}
+
+.singup-email-label {
+  font-size: 16px;
+  line-height: 1.25rem;
+  padding-bottom: 8px;
+  font-weight: 700;
+}
+.singup-email-input {
+  width: 100%;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  padding: 14px;
+  font-weight: 500;
+  color: var(--text-base, #000000);
+  border-radius: 4px;
+  outline: none;
+  
+}
+.singup-email-error-message {
+  color: red;
+}
+.singup-confirmemail-div{
+      width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  margin-bottom: 25px;
+}
+.singup-confirmemail-label{
+      font-size: 16px;
+  line-height: 1.25rem;
+  padding-bottom: 8px;
+  font-weight: 700;
+}
+.singup-confirmemail-input{
+      width: 100%;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  padding: 14px;
+  font-weight: 500;
+  color: var(--text-base, #000000);
+  border-radius: 4px;
+  outline: none;
+}
+.singup-confirmemail-error-message{
+  color: red;
+
+}
+.singup-password-div {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  margin-bottom:40px;
+}
+.singup-password-label {
+  font-size: 16px;
+  line-height: 1.25rem;
+  padding-bottom: 8px;
+  font-weight: 700;
+}
+.singup-password-input {
+  width: 100%;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  padding: 14px;
+  font-weight: 500;
+  color: var(--text-base, #000000);
+  border-radius: 4px;
+  outline: none;
+  /* border: 0.1rem solid grey; */
+}
+.singup-buttom-div{
+    width:100%;
+    height:auto;
+    display:flex;
+    align-content:center;
+    justify-content:center;
+margin-bottom:10px;
+}
+.singup-singup-button{
+    background-color: #1ed760;
+    border:0px ;
+    padding:14px 32px 14px 32px;
+    border-radius:800px;
+    /* letter-spacing: 0.107em; */
+    /* text-transform: uppercase; */
+    line-height: 1.25rem;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size:22px;
+    font-weight:800;
+    color:black;
+cursor: pointer;
+
+}
+
+.singup-bottom-section{
+width:100%;
+height:100%;
+
+display:flex;
+align-items:center;
+justify-content:center;
+}
+.singup-bottom-inner-content{
+width:450px;
+height:auto;
+display:flex;
+flex-direction:column;
+align-items: center;
+justify-content: center;
+gap:8px;
+}
+.spotify-terms-conditions-div{
+  text-align:center;
+  /* font-size: 0.6875rem; */
+  font-size: 0.6975rem; 
+  font-weight:500;
+/* margin-bottom:5px; */
+
+}
+.spotify-terms-condition-text{
+color: rgb(29, 185, 84);
+text-decoration: underline;
+}
+.spotify-privacy-policy{
+  text-align:center;
+  font-size: 0.6975rem; 
+  font-weight:500;
+  margin-bottom:20px;
+}
+.spotify-privacy-policy-text{
+  color: rgb(29, 185, 84);
+text-decoration: underline;
+}
+.hava-an-account-div{
+  font-size:18px;
+  font-weight:700;
+  margin-bottom:10px;
+}
+.signup-login-button{
+  color: rgb(29, 185, 84);
+text-decoration: underline;
+
+}
+
+.input-error-message{
+  display:flex;
+  align-items: center;
+  margin-top:5px;
+}
+.error-svg{
+  fill:rgb(215, 0, 0);
+  margin-right:5px;
+}
+.error-message{
+  font-weight:600;
+  color:rgb(215,0,0);
+}

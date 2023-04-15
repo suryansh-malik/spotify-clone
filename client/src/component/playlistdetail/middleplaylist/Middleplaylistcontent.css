@@ -1,0 +1,107 @@
+.main-middle-playlist-section{
+    width:100%;
+    height:auto;
+    padding: 20px 0px 20px 0px;
+
+
+}
+.middle-playlist-inner-content{
+    z-index: 20;
+    padding:0 30px 0 30px;
+    display:flex;
+    align-items: center;
+    margin:0px 0 30px 0;
+    /* background-color: white; */
+}
+.middleplaylist-play-button{
+    display:flex;
+    align-items: center;
+    padding:15px;
+    /* background-color:rgb(101, 224, 101); */
+    border-radius:50%;
+    margin-right:40px;
+}
+.middleplaylistplaybutton{
+
+}
+.middleplaylist-like-button{
+    width:auto;
+    height:100%;
+    display:flex;
+    align-items: center;
+    color:white;
+
+}
+.middleplaylistlikebutton{
+    fill:hsla(0,0%,100%,.7);
+}
+
+
+.playlistdetail-songs-detail-menu{
+width:100%;
+height:auto;
+padding: 0 30px 0 30px;
+margin-bottom:20px;
+}
+.playlistdetail-song-inner-menu-content{
+width:100%;
+height:auto;
+display:grid;
+padding: 10px 20px 10px 20px;
+grid-template-columns: 16px 4fr 3fr 2fr ;
+grid-gap:16px;
+    color: #b3b3b3;
+    border-bottom:0.5px solid rgba(255, 255, 255, 0.114);
+
+/* position:relative; */
+/* background-color: blanchedalmond; */
+}
+.songs-menu-detail-song-number{
+    width:auto;
+    height:100%;
+    font-size: 1rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    /* color:grey; */
+}
+.songs-menu-detail-song-title{
+    width:auto;
+    height:100%;
+    font-size: 0.8rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+     display:flex;
+    align-items: center;
+}
+.songs-menu-detail-song-album{
+    width:auto;
+    height:100%;
+    font-size: 0.8rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+     display:flex;
+    align-items: center;
+}
+.songs-menu-detail-song-duration{
+    width:auto;
+    height:100%;
+    display:flex;
+    justify-self: center;
+    font-size: 0.8rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    align-items: center;
+}
+@media(max-width:550px){
+    .main-middle-playlist-section{
+    width:100%;
+    height:auto;
+    padding: 20px 0px 150px 0px;
+
+
+}
+}

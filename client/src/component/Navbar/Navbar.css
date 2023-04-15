@@ -1,0 +1,372 @@
+.navlink{
+  text-decoration: none;
+  color: #b3b3b3;
+}
+.divider{
+  width:100%;
+  height:0.5px;
+  background-color: rgba(128, 128, 128, 0.311);
+  margin-bottom:10px;
+}
+.navlinkliked{
+  transition:all 0.3s;
+  opacity:0.65;
+  text-decoration: none;
+
+}
+.navlinkliked:hover{
+    opacity:1;
+
+}
+
+.active {
+color:white;
+  text-decoration: none;
+  opacity:1;
+
+
+}
+.navlinkactive{
+  color:white;
+  fill:white;
+  opacity:1;
+}
+.navbar-content {
+    padding-top:15px;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+}
+
+.logo-container {
+  width: 100%;
+  height: fit-content;
+  /* display:flex;
+  justify-content:flex-start; */
+  margin-bottom: 30px;
+}
+.navbar-logo-svg {
+  width: 140px;
+  height: fit-content;
+}
+.home-navbar-menu {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  margin-bottom: 15px;
+  transition: all 0.15s;
+}
+.home-icon-logo {
+  width: 25px;
+  height: auto;
+}
+.home-title {
+  margin-left: 10px;
+  font-size: 15px;
+  font-weight: 500;
+}
+.search-navbar-menu {
+  transition: all 0.15s;
+
+  display: flex;
+  align-items: center;
+  align-content: center;
+  margin-bottom: 15px;
+}
+.search-icon-logo {
+  width: 25px;
+  height: auto;
+}
+.search-title {
+  margin-left: 10px;
+  font-size: 15px;
+  font-weight: 500;
+}
+.library-navbar-container{
+  position:relative;
+}
+.library-navbar-menu {
+  transition: all 0.3s;
+  display: flex;
+  margin-bottom: 40px;
+  
+  align-items: center;
+  align-content: center;
+  
+}
+.library-not-login-section{
+position:absolute;
+/* display:none; */
+top:-5px;
+transform:translateX(140px) ;
+background-color:#0d72ea;
+z-index:999;
+width:336px;
+height:auto;
+border-radius:7px;
+}
+.library-not-login-inner-section{
+padding:15px;
+position:relative;
+}
+.library-not-login-content{
+  width:100%;
+  height:100%;
+  color:white;
+
+  /* background-color:red; */
+}
+.library-not-login-heading{
+margin-bottom:10px;
+}
+.library-not-login-paragraph{
+font-weight:500;
+margin-bottom:25px;
+}
+.library-not-login-button-section{
+display:flex;
+justify-content:flex-end;
+align-items: center;
+
+}
+.library-not-login-notnow-button{
+background-color:transparent;
+border:0px solid;
+font-weight:800;
+font-size: 0.8125rem;
+color:white;
+cursor:pointer;
+
+}
+.library-not-login-login-button{
+background-color:white;
+border:0px solid;
+border-radius:50px;
+padding:5px 15px 5px 15px;
+font-weight:600;
+margin-left:10px;
+cursor:pointer;
+
+}
+.library-icon-logo {
+  width: 25px;
+  height: auto;
+}
+.library-title {
+  margin-left: 10px;
+  font-size: 15px;
+  font-weight: 500;
+  text-decoration: none;
+  
+
+}
+.library-navbar-menu:hover {
+  color: rgb(255, 255, 255);
+  transition:all 0.3s;
+
+  cursor: pointer;
+}
+.search-navbar-menu:hover {
+  transition:all 0.3s;
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+}
+  
+.home-navbar-menu:hover {transition:all 0.3s;
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+}
+.create-playlist-container{
+  position:relative;
+}
+.create-playlist {
+  transition: all 0.15s;
+  display: flex;
+  margin-bottom: 15px;
+  color: #b3b3b3;
+  align-items: center;
+  align-content: center;
+  
+}
+.playlist-not-login-section{
+position:absolute;
+/* display:none; */
+top:0px;
+transform:translateX(150px) ;
+background-color:#0d72ea;
+z-index:999;
+width:336px;
+height:auto;
+border-radius:7px;
+}
+.playlist-not-login-inner-section{
+padding:15px;
+position:relative;
+}
+.playlist-not-login-content{
+  width:100%;
+  height:100%;
+  color:white;
+
+  /* background-color:red; */
+}
+.playlist-not-login-heading{
+margin-bottom:10px;
+}
+.playlist-not-login-paragraph{
+font-weight:500;
+margin-bottom:25px;
+}
+.playlist-not-login-button-section{
+display:flex;
+justify-content:flex-end;
+align-items: center;
+
+}
+.playlist-not-login-notnow-button{
+background-color:transparent;
+border:0px solid;
+font-weight:800;
+font-size: 0.8125rem;
+color:white;
+cursor:pointer;
+
+}
+.playlist-not-login-login-button{
+background-color:white;
+border:0px solid;
+border-radius:50px;
+padding:5px 15px 5px 15px;
+font-weight:600;
+margin-left:10px;
+cursor:pointer;
+
+}
+.create-playlist-logo {
+  width: 25px;
+  height: auto;
+}
+.create-playlist-title {
+  margin-left: 10px;
+  font-size: 15px;
+  font-weight: 600;
+}
+.create-playlist:hover {
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+}
+.liked-song-container{
+  position:relative;
+
+}
+
+.liked-songs{
+    color:white;
+fill:white;
+  transition: all 0.15s;
+  cursor:pointer;
+  /* opacity:0.65; */
+  display: flex;
+  margin-bottom: 15px;
+  /* color: #b3b3b3; */
+  align-items: center;
+  align-content: center;
+  padding-bottom:10px;
+}
+.likedsongs-not-login-section{
+/* display:none; */
+position:absolute;
+top:0px;
+transform:translateX(150px) ;
+background-color:#0d72ea;
+z-index:999;
+width:336px;
+
+height:auto;
+border-radius:7px;
+}
+.liked-song-inner-section{
+  padding:15px;
+  position:relative;
+}
+.pointer-arrow{
+  position:absolute;
+  top:0px;
+ transform:translateX(-100%);
+  height: auto;
+  width:35px;
+  color:#0d72ea;
+}
+.likedsongs-not-login-content{
+  width:100%;
+  height:100%;
+  color:white;
+
+  /* background-color:red; */
+}
+.likedsongs-not-login-heading{
+margin-bottom:10px;
+}
+.likedsongs-not-login-paragraph{
+font-weight:500;
+margin-bottom:25px;
+}
+.likedsongs-not-login-button-section{
+display:flex;
+justify-content:flex-end;
+align-items: center;
+
+}
+.likedsongs-not-login-notnow-button{
+background-color:transparent;
+border:0px solid;
+font-weight:800;
+font-size: 0.8125rem;
+color:white;
+cursor:pointer;
+}
+.likedsongs-not-login-login-button{
+background-color:white;
+border:0px solid;
+border-radius:50px;
+padding:5px 15px 5px 15px;
+font-weight:600;
+margin-left:10px;
+cursor:pointer;
+
+}
+.heart-logo{
+  /* fill: white; */
+  width: 25px;
+  height: auto;
+  background: linear-gradient(135deg,#450af5,#c4efd9);
+  padding:5px;
+  border-radius:3px;
+}
+.liked-song-title{
+  margin-left: 10px;
+  font-weight:600;
+  /* color: #b3b3b3; */
+
+}
+.liked-songs:hover{
+    color:white;
+}
+.liked-songs:hover{
+    opacity:1;
+
+}
+.liked-playlist-navbar-name{
+  text-decoration: none;
+  /* list-style: none; */
+  color:#b3b3b3;
+  font-size: 14px;
+  font-weight: 600;
+  padding:5px 0 5px 0;
+  cursor: pointer;
+}
+.liked-playlist-navbar-name:hover{
+    color:white;
+transition:all 0.3s;
+}
